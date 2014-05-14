@@ -1,4 +1,4 @@
-cachesolve <- function(x, ...) {
+cacheSolve <- function(x, ...) {
     ## gets the inverse matrix inv (will be null if not yet cached)
     inv <- x$getinv()
     ## if it is not null, then it returns the right inverse matrix
